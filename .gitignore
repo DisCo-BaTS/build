@@ -1,0 +1,124 @@
+##################
+### DisCo-BaTS ###
+##################
+/FOMS/
+simulation/FOMS/
+simulation/FOMS/*
+logs/
+logs/*
+shapes/
+shapes/*
+
+#############
+### Maven ###
+#############
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+#####################
+### build / debug ###
+#####################
+out/
+*.hprof
+
+#################
+### IntelliJ  ###
+#################
+.idea/jarRepositories.xml
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Ruby plugin and RubyMine
+/.rakeTasks
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Sonarlint plugin
+.idea/sonarlint
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/vcs.xml
+.idea/dictionaries
+swp18j\swp18j.iml
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# File-based project format:
+*.iws
+
+#########################
+### temp office files ###
+#########################
+~*
+
+#############
+### LaTeX ###
+#############
+auxil/
+auxil/*.log
+*.aux
+*.out
+*.gz
+*.toc
+*.log
+*.bbl
+*.blg
+
+##################
+### thumbnails ###
+##################
+._*
+
+####################
+### system files ###
+####################
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
