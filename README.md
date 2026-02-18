@@ -1,7 +1,7 @@
 
 <!-- HEADER START -->
 <h1 align="center" style="margin: 0; line-height: 1.25em">
-  <img src="assets/logo/discobats_logo_square_icon.png" width="192" alt="DISCO-BATS Project Logo"/>
+  <img src="https://github.com/DisCo-BaTS/.github/blob/main/profile/assets/logo/discobats_logo_square_icon.png?raw=true"/>
   <p style="margin: 0">
     DisCo-BaTS
   </p>
