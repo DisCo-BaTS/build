@@ -1,35 +1,17 @@
 
+
 <!-- HEADER START -->
 <h1 align="center" style="margin: 0; line-height: 1.25em">
-  <img src="https://github.com/DisCo-BaTS/.github/blob/main/profile/assets/logo/discobats_logo_square_icon.png?raw=true"/>
+  <img alt="discobats logo" src="https://github.com/DisCo-BaTS/.github/blob/main/profile/assets/logo/discobats_logo_square_icon.png?raw=true"/>
   <p style="margin: 0">
     DisCo-BaTS
   </p>
 </h1>
-<h2 align="center" style="margin: 0; line-height: 0.25em">
-  <p style="margin-top: 0; padding-bottom: 8px">
-    <em>Dis</em>tributed <em>Com</em>ponent-<em>Ba</em>sed <em>T</em>raffic <em>S</em>imulation
-  </p>   
-</h2>
 
-<p align="center" style="margin-bottom: 0">
-  <a href="https://opensource.org/license/lgpl-3-0">
-    <img alt="License" src="https://img.shields.io/badge/license-lgpl--3.0-success?style=for-the-badge"/>
-  </a>
-  <a href="https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html">
-    <img alt="Build Status" src="https://img.shields.io/badge/Java%20version-21-F58219?logo=java&style=for-the-badge"/>
-  </a>
-</p>
-<p align="center" style="margin: 0">
-  <a href="https://www.docker.com/" style="line-height: 0.25em">
-    <img alt="Build Status" src="https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white"/>
-  </a>
-  <a href="https://maven.apache.org/">
-    <img alt="API" src="https://img.shields.io/badge/Apache%20Maven-003063?style=for-the-badge&logo=Apache%20Maven&logoColor=white.svg"/>
-  </a>
-  <a href="https://www.jetbrains.com/idea/">
-    <img alt="Build Status" src="https://img.shields.io/badge/Intellij%20Idea-000?logo=intellij-idea&style=for-the-badge&color=5F2395"/>
-  </a>
+<p align="center" style="margin: 0;">
+  <p align="center" style="margin: 0; padding-bottom: 8px;">
+    <b><em>Dis</em>tributed <em>Com</em>ponent-<em>Ba</em>sed <em>T</em>raffic <em>S</em>imulation</b>
+  </p>   
 </p>
 
 <p align="center">
@@ -42,9 +24,58 @@
         Centered around a unified meta-model that explicitly targets scenario-based simulation testing of<br/>
         various software-based systems and system-components, which can be located both locally and remotely.
     </p>
-</em>
+  </em>
 </p>
+
+<h2> </h2>
+<h2 align="center" style="margin: 0; line-height: 5px">
+  <p style="margin-top: 0; padding-top: 0; padding-bottom: 8px">
+    Module: Build Dependencies - Group: Core
+  </p>
+  <p align="center" style="margin-bottom: 0">
+    <a href="https://opensource.org/license/lgpl-3-0">
+      <img alt="License" src="https://img.shields.io/badge/license-lgpl--3.0-success?style=for-the-badge"/>
+    </a>
+    <a href="https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html">
+      <img alt="Build Status" src="https://img.shields.io/badge/Java%20version-21-F58219?logo=java&style=for-the-badge"/>
+    </a>
+  </p>
+  <p align="center" style="margin: 0">
+    <a href="https://www.docker.com/" style="line-height: 0.25em">
+      <img alt="Build Status" src="https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white"/>
+    </a>
+    <a href="https://maven.apache.org/">
+      <img alt="API" src="https://img.shields.io/badge/Apache%20Maven-003063?style=for-the-badge&logo=Apache%20Maven&logoColor=white.svg"/>
+    </a>
+  </p>
+</h2>
+<br/>
 <!-- HEADER END -->
+
+### Modules
+- __plugins__ discobats own custom plugins that are needed for builds should be located here
+  - __maven-plugins__
+    - __mvn-jaxb-index-builder__ plugin that build the jaxb.index file during the maven build process for a model library. the jaxb.index is needed to provide JAXB with the knowledge what classes the model contains and where those are located. that way JAXB is able to unmarshall those classes from a scenario XML description that references the library.
+    ```
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>de.uol.discobats.build.plugins.maven</groupId>
+          <artifactId>mvn-jaxb-index-builder</artifactId>
+          <version>1.0</version>
+          <executions>
+            <execution>
+              <phase>generate-sources</phase>
+              <goals>
+                <goal>build-jaxbindex</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </build>
+    ```
+
 
 ---
 
