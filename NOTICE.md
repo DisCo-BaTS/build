@@ -14,8 +14,8 @@ For more information on the authorship of content, consult the listed source cod
 ## Declared Project Licenses
 
 This program and the accompanying materials are made available under the terms
-of the **Eclipse Public License v. 2.0** which is available at
-http://www.eclipse.org/legal/epl-v20.html.
+of the **GNU Lesser General Public License Version 3** which is available at
+https://www.gnu.org/licenses/lgpl-3.0.html.en.
 
 SPDX-License-Identifier: LGPL-3.0-only
 
