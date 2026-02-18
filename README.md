@@ -1,5 +1,4 @@
 
-
 <!-- HEADER START -->
 <h1 align="center" style="margin: 0; line-height: 1.25em">
   <img alt="discobats logo" src="https://github.com/DisCo-BaTS/.github/blob/main/profile/assets/logo/discobats_logo_square_icon.png?raw=true"/>
