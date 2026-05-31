@@ -109,25 +109,26 @@
 ---
 
 > [!IMPORTANT]  
-> This framework was developed as part of a doctoral thesis submitted on February 19, 2026, titled
+> This framework was developed as part of a doctoral thesis successfully defended on April 30, 2026, titled
 > _"Flexible Komponentenbasierte Modellierung und Simulation von Szenarien für die Verifizierung und Validierung
 > automatisierter maritimer Fahrsysteme"_ (eng.: _"Flexible component-based modeling and simulation of scenarios for the verification and validation of automated
-> maritime navigation systems."_).  
+> maritime navigation systems."_) [**[FULLTEXT](https://nbn-resolving.org/urn:nbn:de:gbv:715-oops-75145)**].
 > **Although a lot of work has been put into it, be aware that the software is still in a proof-of-concept stage** and you may find currently unused code that was once used to explore alternative solutions, undocumented parts, missing comments, and other imperfections.
 
 ---
 
 ## Documentation
-For documentation check out the wiki pages and the READMEs located in the individual repositories.
-> Additionally, once the dissertation in which DisCo-BaTS was developed has been successfully defended and published,
-> the URL to the corresponding publicly available PDF version will be added here.
+
+For documentation check out [the wiki pages](https://github.com/DisCo-BaTS/.github/wiki/DisCo%E2%80%90BaTS-%E2%80%90-Wiki-%E2%80%90-Home) and the READMEs located in the individual repositories.
+Additionally, the doctoral thesis in which DisCo-BaTS was developed delves into the details of the core-concepts: [**[READ FULLTEXT](https://nbn-resolving.org/urn:nbn:de:gbv:715-oops-75145)**].
 
 
 ## Attribution
+
 If you use the DisCo-BaTS modeling and simulation framework or parts of it for your own research,
 it would be appreciated if you would include the following reference in all published work for which
 DisCo-BaTS or parts of it where used:
-> A citable reference will be added here once the corresponding dissertation has been successfully defended and published.
+> REIHER, D. (2026). *Flexible komponentenbasierte Modellierung und Simulation von Szenarien für die Verifizierung und Validierung automatisierter maritimer Fahrsysteme* \[Flexible component-based modeling and simulation of scenarios for the verification and validation of automated maritime driving systems\] \[Doctoral dissertation, Carl von Ossietzky University of Oldenburg\]. /oops/ - Oldenburger Online-Publikations-Server. [http://nbn-resolving.org/urn:nbn:de:gbv:715-oops-75145](http://nbn-resolving.org/urn:nbn:de:gbv:715-oops-75145).
 
 
 ## Related Repositories
